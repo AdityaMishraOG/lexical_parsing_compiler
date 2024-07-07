@@ -1,7 +1,8 @@
 # Lexical Parsing Compiler
 - A simple Python compiler for verifying adherence of user-entered strings to context-free grammar rules. 
 - It uses the CYK Algorithm for parsing and validating the input string against a Context-Free Grammar (CFG) in Chomsky Normal Form (CNF).  
-
+- The CYK Algorithm has a time complexity of O(N<sup>3</sup>) and a space complexity of O(N<sup>2</sup>).  
+  
 Note: One has the opportunity to experiment with a diverse range of grammars, allowing for extensive testing and analysis of different syntactic structures.
 
 ## Features
